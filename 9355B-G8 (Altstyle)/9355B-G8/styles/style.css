@@ -1,0 +1,707 @@
+html{
+    height: 100%;
+    width:100%;
+    padding: 0;
+    font: 13px/22px "Arial", "Trebuchet MS", sans-serif;
+    background-color: black;
+    color: inherit;
+}
+
+body{
+    margin-top:0%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header{
+    height: 30%;
+    width: 100%;
+    position: relative;
+    top: 35%;
+}
+
+#branding{
+    color: transparent;
+    background-color: inherit;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+}
+
+/* Cover which contains the introduction */
+#cover{
+    padding: 0;
+    margin:0%;
+    background-attachment: fixed;
+    background-image: url("images/cover2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width: 89%;
+}
+
+#blackbg{
+    margin: 0;
+    height: 60%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+}
+
+#intro{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    background-color: #171717;
+    color: inherit;
+}
+
+#intro h2{
+    top: -50%;
+    color: #9A3334;
+    background-color: inherit;
+    width: 100%;
+    font-size: 100px;
+    position: absolute;
+}
+
+#intro p{
+    margin-top: 3%;
+    background-color: inherit;
+    color: white;
+    width: 100%;
+    top: 45%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    position: absolute;
+}
+
+/* Main body design */
+#main_content {
+    margin: 0;
+    padding: 0;
+    width: 89%;
+}
+
+/* MENU */
+#menu{
+    color: black;
+    position: absolute;
+    background-color: #9A3334;
+    height: 12%;
+    width: 89%;
+    top: 91%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    top: 91%;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    margin: 0;
+    font-size: 15px;
+    display: block;
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    padding: 31px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    color: black;
+    background-color: #9A3334;
+}
+
+/* CORRUPTION DEFINITION SECTION */
+#secondcover{
+    margin: 0;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    width: 65%;
+}
+
+#secondcover p{
+    opacity: 0.3;
+    color: white;
+    background-color: inherit;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    line-height: 100%;
+    padding: 3%;
+}
+
+#secondcover p:hover{
+    background-color: black;
+    color: inherit;
+    opacity: 1;
+    transition: 0.6s ease;
+}
+
+#left{
+    text-align: center;
+    background-color: black;
+    color: inherit;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    position: absolute;
+    width: 65%;
+    margin-top: 5%;
+	z-index: -1;
+	top: 95%;
+    height: 55%;
+}
+
+#left h2{
+    color: white;
+    background-color: inherit;
+    padding: 5%;
+    text-align: center;
+    font-size: 90px;                               
+    width: 90%;
+    font-family: 'Rockwell', sans-serif;
+    line-height: 100%;
+}
+
+#left h2:hover{
+    opacity: 0.3;
+}
+
+/* ABOUT US SECTION */
+#about{
+    position: absolute;
+    top: 103.3%;
+    bottom: 10%;
+    right: 11%;
+    background-color: #0e0e0e;
+    padding: 3%;
+    width: 15%;
+    height: 164.3%;
+    color: white;
+    z-index: -1;
+}
+
+#about h2{
+    font-family: 'Rockwell', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#about p{
+    text-align: justify;
+    text-indent: 19px;
+}
+
+#images{
+    padding-left: 20%;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#images img{
+	margin-left: 15px;
+}
+
+#shary, #jay, #rio, #jDerick, #raphael{
+    width: 50%;
+	border-radius: 50%;
+    margin-bottom: 20%;
+}
+
+#sgc{
+    padding-left: 3%;
+    position: absolute;
+    top: 51%;
+    
+}
+
+#ra{
+    padding-left: 9%;
+    position: absolute;
+    top: 61.5%;
+}
+
+#jpd{
+    padding-left: 5%;
+    position: absolute;
+    top: 72.5%;
+}
+
+#rvk{
+    padding-left: 5%;
+    position: absolute;
+    top: 83%;
+}
+
+#jdl{
+    position: absolute;
+    top: 93.5%;
+}
+
+#personalInfo{
+	width: 100%;
+}
+
+#personalInfo p{
+	margin-left: 10px;
+    text-align: center;
+}
+
+/* CAUSE OF CORRUPTION SECTION */
+.cause_wrapper{
+    background-color: #FFFFFF;
+    color: inherit;
+    text-align: center;
+}
+
+#cause{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /*background-attachment: fixed;
+    background-image: url("images/cover3.jpg");*/
+    color: blue;
+    background-color: inherit;
+}
+
+#cause h2{
+    margin-top: .5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    width: 75.3%;;
+    font-family: 'Franklin Gothic Heavy', sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: black;
+    position: relative;
+    background-color: #F3EFE0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#cause1{
+    float: left;
+    background-color: #3399FF;
+    color: #FFFFFF;
+    width: 75.3%;
+    font-size: 15px;
+    margin: 0;
+}
+
+#cause1 p{
+    padding: 5%;
+    text-align: justify;
+    line-height: 25px; 
+    margin-top: 3%;
+    margin-left: 1%;
+    font-family: 'SimSun', sans-serif;
+    font-size: 20px;
+}
+
+#cause1 h3{
+    float: left;
+    color: #000000;
+    background-color: inherit;
+    font-family: 'Rockwell', sans-serif;
+    font-size: 70px;
+    letter-spacing: 5px;
+    padding-left: 5%;
+    margin: 11% 3% 2.8% 2%;
+}
+
+
+#cause2{
+    float: left;
+    background-color: #217C7E;
+    color: #FFFFFF;
+    width: 75.3%;
+    font-size: 15.5px;
+}
+
+#cause2 h3{
+    margin: 11% 5% 2.7% 2%;
+    width: 45%;
+    float: right;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: 'Rockwell', sans-serif;
+    color: #000000;
+    background-color: inherit;
+    line-height: 100%;
+    text-align: center;
+}
+
+#cause2 p{
+    padding: 5.5%;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'SimSun', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: inherit;
+    margin-right: 1%;
+}
+
+#cause3{
+    background-color: #000000;
+    color: #FFFFFF; 
+    font-size: 15px;
+    width: 90%;
+    padding: 5%;
+    margin-top: 1%;
+}
+
+#cause3 h3{
+    color: #9A3334;
+    background-color: inherit;
+    font-family: 'Rockwell', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 100%;
+}
+
+#cause3 p{
+    color: #FFFFFF;
+    background-color: inherit;
+    text-align: left;
+    font-family: 'SimSun', sans-serif;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+#cause4{
+    float: right;
+    padding: 3%;
+    margin-top: 1%;
+    width: 94%;
+    background-color: #F3EFE0; 
+    color: #000000;
+}
+
+#cause4 h3{
+    border: 2px solid #9A3334;
+    background-color: inherit;
+    color: #217C7E;
+    margin: 11% 5% 5.2% 3%;
+    float: right;
+    text-align: center;
+    font-family: 'Rockwell', sans-serif;
+    font-size:110px;
+    letter-spacing: 2px;
+
+}
+
+#cause4 p{
+    padding: 5% 5% 0% 5%;
+    text-indent: 50px;
+    text-align: justify;
+    font-family: 'SimSun', sans-serif;
+    font-size: 20px;
+    width: 90%;
+}
+
+#cause5 h3{
+    margin-top: 65%;
+    text-align: center;
+    font-family: 'Franklin Gothic Heavy', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: black;
+    background-color: #9A3334;
+}
+
+#cause5_top{
+    margin-bottom: .3%;
+    margin-top: -4%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: justify;
+    text-indent: 50px;
+    color: #000000; 
+    background-color: inherit;
+    border: 5px solid #F3EFE0;
+}
+
+#cause5_top p{ 
+    color: #F3EFE0;
+    background-color: inherit;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#cause5_left{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: #9A3334;
+    color: #000000; 
+    text-indent: 30px;
+}
+
+#cause5_left h4{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+}
+
+#cause5_left p{
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+#cause5_middle{
+    margin-bottom: 1%;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    text-indent: 30px;
+    background-color: #9A3334;
+    color: #000000;
+}
+
+#cause5_middle h4{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+}
+
+#cause5_middle p{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#cause5_right{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    text-indent: 30px;
+    background-color: #9A3334;
+    color: inherit;
+}
+
+#cause5_right h4{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+}
+
+#cause5_right p{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 2%;
+    margin-left: 2%;
+    color: #000000;
+    background-color: inherit;
+}
+
+#cause5_bottom{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 5px solid #F3EFE0;
+    color: #000000;
+    background-color: inherit;
+    text-align: justify;
+    text-indent: 50px; 
+}
+
+#cause5_bottom p{
+    color: white;
+    background-color: inherit;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/* IMPACT OF CORRUPTION SECTION */
+#eigthcover{
+    color: black;
+    padding: 1%;
+    background-color: #217C7E;
+}
+
+#columnchange{
+    column-count: 3;
+    column-gap: 40px; 
+    column-rule: 1px solid #F3EFE0;
+    padding-top: 5%;
+    margin-bottom: 1%;
+}
+
+#columnchange h3{
+    text-align: center;
+    color: #F3EFE0;
+    background-color: inherit;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+#column2{
+    margin-top: 1%;
+    column-count: 3;
+    column-gap: 40px; 
+    column-rule: 1px solid #F3EFE0;
+}
+
+#column2 h3{
+    text-align: center;
+    font-size: 30px;
+    color: #F3EFE0;
+    background-color: inherit;
+    padding-bottom: 10px;
+    line-height: 100%
+}
+
+#column2 p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+#columnchange p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+/* BE THE CHANGE SECTION */
+
+#change{
+    background-color: #000000;
+    color: inherit;
+    padding: 3%;
+}
+
+#change h3{
+    color: white;
+    background-color: inherit;
+    text-align: center;
+    font-size: 80px;
+}
+
+#change p{
+    padding: 5%;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    background-color: #F3EFE0;
+}
+
+#column1 p{
+    text-indent: 25px;
+    text-align: justify;
+    border: 10px double #9A3334;
+    margin-left: 1%;
+    padding: 5% 
+}
+
+video{
+	height: 576px; 
+	width: 924px;
+    border: 2px solid white;
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
+
+/* FACTS/STATISTIC SECTION */
+.tenthcover{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color: #F3EFE0;
+    color: inherit;
+    position: relative;
+}
+
+.tenthcover h2{
+    color: #9A3334;
+    background-color: inherit;
+    font-family: 'Rockwell', sans-serif;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+#graph{ 
+    margin-top: -70px;
+    padding: 5%;
+    font-size: 11px;
+    width: 20%;
+    float: left;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+#references{
+    padding-bottom: 5%;
+}
+
+#references p{
+    text-indent: 25px;
+    margin-top: 1%;
+}
+
+.tenthcover img{
+    float: left;
+    width: 70%;
+}
+
+/* FOOTER SECTION */
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    height: 50px;
+    margin-bottom: 1.5%;
+}
+
+small{
+    font-size: 1.5em;
+}
+
+/* OTHER CSS CLASSES AND ID */
+.clear{
+    clear: both;
+}
+span{
+    padding: 1%;
+    border: 2px solid #FFFFFF;
+    color: #9A3334;
+    background-color: inherit;
+}
+
+h3{
+    font-family: 'Rockwell', sans-serif;
+}
+
+h4{
+    font-family: 'impact',sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
